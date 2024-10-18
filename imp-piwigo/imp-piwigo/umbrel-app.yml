@@ -1,0 +1,95 @@
+manifestVersion: 1
+id: imp-piwigo
+category: Media
+name: Piwigo
+icon: https://svgshare.com/i/vWW.svg
+version: "13.1.0"
+tagline: Perfect Replacement for Google Photos
+description: >-
+  For First time installation, use credentials :
+
+
+  DB_HOST: db
+
+
+  DB_USER:piwigo
+
+
+  DB_PASSWORD:piwigo
+
+
+  DB_NAME:piwigo
+
+  Manage your photo library. Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.
+
+
+  Piwigo offers a wide set of features for any photo gallery. Many of the available features are listed below. New features are added to Piwigo on an ongoing basis, because of coding team ideas and discussions with the user community.
+
+  Upload your photos :
+
+
+  You can add photos with the web form, any FTP client or
+
+
+  a desktop application like digiKam, Shotwell, Lightroom or
+
+
+  mobile applications.
+
+
+  Batch Manager :
+
+
+  Filter photos from your collection, make a selection and apply actions in batch, change the author, add some tags, associate to a new album, set geolocation...
+
+
+  Organize and share your photos :
+
+
+  Organize with Album :
+
+
+  Distribute your photos among your own albums. The album tree has unlimited depth. Each photo can belong to several albums.
+
+
+  Browse by Dates :
+
+
+  Digital cameras store the date in the photo and Piwigo uses this date to display your photo collection in a calendar and let you browse from day to day.
+
+
+  Privacy on your Photos :
+
+
+  Make your photos private and decide who can see each of them. You can set permissions on albums and photos, for groups or individual users.
+
+
+  Geolocate your photos on a map :
+
+
+  Piwigo can read GPS latitude and longitude from embedded metadata. Then, with plugin for Google Maps or OpenStreetMap, Piwigo can display your photos on an interactive map.
+
+
+  Themes & Plugins :
+
+
+  Change appearance with themes. Add features with plugins. Extensions require just a few clicks to get installed. 350 extensions available, and growing!
+developer: Piwigo Team
+website: https://piwigo.org/
+dependencies: []
+repo: https://github.com/Piwigo/Piwigo
+support: https://github.com/Piwigo/Piwigo/wiki
+port: 8334
+gallery:
+  - https://user-images.githubusercontent.com/43396684/197939985-7fb185c2-8d40-44bf-875e-5dc8567c0b50.png
+  - https://user-images.githubusercontent.com/43396684/197940640-982327cf-0aa1-4ece-ba7c-aa0d0d6c7cdd.png
+  - https://user-images.githubusercontent.com/43396684/197940644-d688dc90-1850-41de-aa96-2999463c2e31.png
+  - https://user-images.githubusercontent.com/43396684/197940648-e16d3bed-48f3-4c4d-8812-18612afcd8cb.png
+  - https://user-images.githubusercontent.com/43396684/197940650-8c498268-d2ac-4fd7-aea2-f55770137e3e.png
+  - https://user-images.githubusercontent.com/43396684/197940651-1108ecd4-6b44-494f-851b-71c66a3c4db8.png
+path: ""
+defaultUsername: "piwigo"
+defaultPassword: "piwigo"
+torOnly: false
+submitter: Pranshu Agrawal
+submission: https://github.com/getumbrel/umbrel-apps/pull/224
