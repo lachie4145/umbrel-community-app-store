@@ -1,0 +1,37 @@
+manifestVersion: 1
+id: chromadb
+name: ChromaDB
+tagline: Powerful open-source vector database for AI applications
+icon: https://raw.githubusercontent.com/chroma-core/chroma/main/logo/chroma-mark-logo.png
+category: Databases
+version: "0.5.13"
+port: 8000
+description: >-
+  ChromaDB is an open-source embedding database designed for AI applications.
+  It allows you to store and query vector embeddings efficiently, making it
+  ideal for semantic search, recommendation systems, and other AI-powered features.
+
+
+  Key features:
+  - Fast and scalable vector search
+  - Support for various embedding models
+  - Easy integration with popular AI frameworks
+  - Persistent storage for your embeddings
+
+developer: Chroma
+website: https://www.trychroma.com/
+submitter: Umbrel
+submission: https://github.com/chroma-core/chroma
+repo: https://github.com/chroma-core/chroma
+support: https://github.com/chroma-core/chroma/issues
+gallery:
+  - https://www.trychroma.com/static/hero.png
+  - https://www.trychroma.com/static/chroma_architecture.png
+  - https://www.trychroma.com/static/embedding_visual.png
+releaseNotes: >-
+  This version includes the latest features and improvements from ChromaDB v0.5.13.
+  For detailed release notes, please check the GitHub repository.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
